@@ -1,0 +1,89 @@
+[
+  {
+    "yard_line": 40,
+    "yards_to_go": 2.0,
+    "prob_convert": 0.63,
+    "fg_distance": 77,
+    "prob_fg_make": 0.2,
+    "ev": {
+      "go": -0.43920000000000003,
+      "fg": -0.6600000000000001,
+      "punt": 1.36
+    },
+    "wp": {
+      "go": 0.43411999999999995,
+      "fg": 0.40099999999999997,
+      "punt": 0.677
+    },
+    "delta_ev": {
+      "go": -1.7992000000000001,
+      "fg": -2.0200000000000005,
+      "punt": 0.0
+    },
+    "delta_wp": {
+      "go": -0.2428800000000001,
+      "fg": -0.2760000000000001,
+      "punt": 0.0
+    },
+    "break_even_p_convert": 1.0,
+    "recommendation": "punt"
+  },
+  {
+    "yard_line": 65,
+    "yards_to_go": 4.5,
+    "prob_convert": 0.45999999999999996,
+    "fg_distance": 52,
+    "prob_fg_make": 0.55,
+    "ev": {
+      "go": 1.35,
+      "fg": 2.235,
+      "punt": 2.5
+    },
+    "wp": {
+      "go": 0.67625,
+      "fg": 0.742625,
+      "punt": 0.7625000000000001
+    },
+    "delta_ev": {
+      "go": -1.15,
+      "fg": -0.2650000000000001,
+      "punt": 0.0
+    },
+    "delta_wp": {
+      "go": -0.08625000000000005,
+      "fg": -0.019875000000000087,
+      "punt": 0.0
+    },
+    "break_even_p_convert": 0.9199999999999999,
+    "recommendation": "punt"
+  },
+  {
+    "yard_line": 18,
+    "yards_to_go": 1.0,
+    "prob_convert": 0.7,
+    "fg_distance": 99,
+    "prob_fg_make": 0.2,
+    "ev": {
+      "go": -2.15,
+      "fg": -2.564,
+      "punt": -0.2
+    },
+    "wp": {
+      "go": 0.26375,
+      "fg": 0.2327,
+      "punt": 0.47
+    },
+    "delta_ev": {
+      "go": -1.95,
+      "fg": -2.364,
+      "punt": 0.0
+    },
+    "delta_wp": {
+      "go": -0.20625,
+      "fg": -0.23729999999999998,
+      "punt": 0.0
+    },
+    "break_even_p_convert": 1.0,
+    "recommendation": "punt"
+  }
+]

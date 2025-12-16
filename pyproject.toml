@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nfl-4th-down-model"
+version = "0.1.0"
+description = "EV-based CLI for NFL 4th down decisions"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Drew"}]
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4,<8.0",
+    "ruff>=0.6,<0.7",
+]
+
+[project.scripts]
+nfl4th = "nfl4th.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
