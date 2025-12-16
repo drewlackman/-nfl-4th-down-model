@@ -32,7 +32,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-git add .
-git commit -m "Add basic rule-based 4th down decision"
-git push
