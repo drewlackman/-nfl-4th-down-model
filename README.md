@@ -2,7 +2,6 @@
 
 A beginner-friendly Python project that recommends whether to go for it, punt, or kick a field goal on 4th down using a simple Expected Points model.
 
-![CLI screenshot showing sample output](docs/cli-demo.png)
 
 ## Quick start
 1. Create and activate a virtual environment (Python 3.10+):
