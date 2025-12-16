@@ -2,6 +2,10 @@
 
 A beginner-friendly Python project that recommends whether to go for it, punt, or kick a field goal on 4th down using a simple Expected Points model.
 
+## Tech stack
+- Python 3.10 CLI built with `argparse`.
+- Custom expected-points lookup tables and interpolation logic for go/FG/punt.
+- Editable package layout (`src/`) plus Ruff + pytest for quality checks.
 
 ## Quick start
 1. Create and activate a virtual environment (Python 3.10+):
@@ -36,6 +40,14 @@ nfl4th --input examples/sample_plays.csv \
 ```
 
 Omit `--output` to stream the table to stdout, or switch to JSON output via `--output-format json`.
+
+## Run tests & lint
+Install dev dependencies (`pip install -e .[dev]`) and run:
+
+```bash
+pytest
+ruff check
+```
 
 ## Advanced CLI options
 
